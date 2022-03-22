@@ -1,0 +1,16 @@
+PODS:
+  - SIContactManager (0.1.0)
+
+DEPENDENCIES:
+  - SIContactManager (from `../`)
+
+EXTERNAL SOURCES:
+  SIContactManager:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  SIContactManager: 0d66ce3dea795f95ec9ec628b56ed1f215658790
+
+PODFILE CHECKSUM: 2f6978aca202984b664a0881b2948b298127e6c3
+
+COCOAPODS: 1.10.1

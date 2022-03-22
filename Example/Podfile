@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '9.0'
+
+target 'SIContactManager_Example' do
+  pod 'SIContactManager', :path => '../'
+
+  target 'SIContactManager_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

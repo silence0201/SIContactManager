@@ -1,0 +1,6 @@
+framework module SIContactManager {
+  umbrella header "SIContactManager-umbrella.h"
+
+  export *
+  module * { export * }
+}
