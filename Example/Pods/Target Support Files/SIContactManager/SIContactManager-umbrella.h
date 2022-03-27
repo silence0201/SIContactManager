@@ -10,6 +10,7 @@
 #endif
 #endif
 
+#import "NSString+SIContanctExtension.h"
 #import "SIContachManager.h"
 #import "SIContact.h"
 #import "SIContactAddress.h"

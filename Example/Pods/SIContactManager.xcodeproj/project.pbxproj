@@ -7,76 +7,80 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		17D5B5059928128C779252E7D8AAE4BD /* SIContactAddress.h in Headers */ = {isa = PBXBuildFile; fileRef = A7F831E3F37A2547BBE1FF6DC1DEDA85 /* SIContactAddress.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1C3F8E072A5DC13F97C4EDF1493012D3 /* SIContactEmail.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FBB4D08806FE5522054E7CB11D52F14 /* SIContactEmail.m */; };
-		2907756C40D85F6EFD5156F2DB50A419 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EEF46859EB6FFD5657666E4B75689A11 /* Foundation.framework */; };
-		2F56078BAE580C3086CD0B9EE07016B9 /* SIContactBirthday.h in Headers */ = {isa = PBXBuildFile; fileRef = 7BC9B1F4B8AFAE92374083223552630B /* SIContactBirthday.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		370502431D3B0E05DC705E6558CCF359 /* SIContactManager-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 687B995322E90E1B611ABD1904457BC2 /* SIContactManager-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		378DFD3C9DF7B847794E1FA3122E980F /* SIContactMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = B956502F8B3C78931C6137DDECDD7E50 /* SIContactMessage.m */; };
-		3E4667953D9F8F363A8650BFA07ABBB6 /* SIContact.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F7F733623BEB98E609A9079E305E88C /* SIContact.m */; };
-		465D799102F23C61A18AC0C8E145DD23 /* SIContactManager-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EF0D73EEA2E9DE4B288595B8661ADADD /* SIContactManager-dummy.m */; };
-		68BE379BB7F4447C6643FB342CC76260 /* SIContachManager.m in Sources */ = {isa = PBXBuildFile; fileRef = D29469B78D642F0FED9D90B95F8AFB5A /* SIContachManager.m */; };
-		707528F830C0DD52E9425F3A52AB14D8 /* SIContachManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 03ADA25B93E207410FFEEED57EFDE527 /* SIContachManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		774D77B7CD96F81F8A772A50A21F1130 /* SIContactBirthday.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F043CA99332F1968C2D914F2EE793A1 /* SIContactBirthday.m */; };
-		84AE1796083975F52899723E160D7892 /* SIContactUrlAddress.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FB9E4F68B7AB20F89E4932FE3DA5E1C /* SIContactUrlAddress.m */; };
-		9437A60D024A8698F1CC2A1C60E60E10 /* SISectionContact.h in Headers */ = {isa = PBXBuildFile; fileRef = A3EDDE414311CD5CFFAE085D1F93CE1A /* SISectionContact.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		99E6C787E4EFEB40448E0F11CBE944D6 /* SIContactRelation.m in Sources */ = {isa = PBXBuildFile; fileRef = 2401C74DE99FF3120031B5255F69C5BC /* SIContactRelation.m */; };
-		9B2F79CACFAB8169B323257B47F6DF61 /* SIContactSocialProfile.m in Sources */ = {isa = PBXBuildFile; fileRef = FF1CD7B3C57CC04943AA709597A67B2C /* SIContactSocialProfile.m */; };
-		9CCDF87233A4A6A6EE5D196519AF6039 /* SIContactPhone.h in Headers */ = {isa = PBXBuildFile; fileRef = E0C1C68986A683B115A1F16C8664E0C5 /* SIContactPhone.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A5E10AB97247087E0AD18EC5D9E53AD1 /* SIContactSocialProfile.h in Headers */ = {isa = PBXBuildFile; fileRef = 27170134BC2048683D29706EA0117870 /* SIContactSocialProfile.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A8F23CC23E4C7EBF6D693FF7194A1610 /* SIContactPhone.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E3CD931C8B0EC7BD992AAD9E6B767A3 /* SIContactPhone.m */; };
-		BF2D1AF49CCA23E424BFFC71EE136C39 /* SIContactUrlAddress.h in Headers */ = {isa = PBXBuildFile; fileRef = 22679421C7541F195BF769C006CAAFC5 /* SIContactUrlAddress.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C587258318F706F5D2112662356CB9B4 /* SIContactEmail.h in Headers */ = {isa = PBXBuildFile; fileRef = 0F4C5FC3477A198B410339AEAA961DD5 /* SIContactEmail.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		CED110BA3816538C9839F0CF2793824D /* SIContactRelation.h in Headers */ = {isa = PBXBuildFile; fileRef = EDC534AB3CF97F561CF2D9893AA15039 /* SIContactRelation.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		DC188A0F9018B878E4513E8FB4ED2507 /* SIContact.h in Headers */ = {isa = PBXBuildFile; fileRef = 5B67D741933DF73A351ED0D2338B49CB /* SIContact.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E4519195BD6F3C87BB01B9497A3A2D08 /* SISectionContact.m in Sources */ = {isa = PBXBuildFile; fileRef = DC91A7511CCBBA326805379B4AE877DF /* SISectionContact.m */; };
-		EC004F88301CBA249D818224DDDEB171 /* SIContactMessage.h in Headers */ = {isa = PBXBuildFile; fileRef = FBEA1AA4354A3120A9F428869B6E4516 /* SIContactMessage.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		EC4D1316537C90C03878AD4F588CC392 /* SIContactAddress.m in Sources */ = {isa = PBXBuildFile; fileRef = 065406DF84D00C64A1335CA29487DF41 /* SIContactAddress.m */; };
+		08EDD77D683F0E08E89E80C6C992B688 /* SIContactSocialProfile.h in Headers */ = {isa = PBXBuildFile; fileRef = 2AE61FC53E296D69E1FBCA17A13F1D45 /* SIContactSocialProfile.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1D16A2C888615ECDBEFCE86BDE5E129A /* SIContact.h in Headers */ = {isa = PBXBuildFile; fileRef = 1E8C1A8359213EAA1A91F5E770FC8DDA /* SIContact.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		22A5F5E001C124AA70044FADC483BB06 /* SIContactBirthday.h in Headers */ = {isa = PBXBuildFile; fileRef = E2835AF95BC99F725D46AE927C29F09C /* SIContactBirthday.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		27D2E8AA567648A7AC5E654B7E228EDE /* SIContactEmail.h in Headers */ = {isa = PBXBuildFile; fileRef = 001AA597419074E9308287DB3CD0E154 /* SIContactEmail.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2EB27C7DD008D244651B2AD6F28C0A72 /* SIContactRelation.m in Sources */ = {isa = PBXBuildFile; fileRef = FAEDB4641BD8027BDFF78C00CE7A732A /* SIContactRelation.m */; };
+		36E8891175975B012D44F387B3CBAC4B /* SIContactAddress.m in Sources */ = {isa = PBXBuildFile; fileRef = 0767FA6514888986B00EB6901897CE4E /* SIContactAddress.m */; };
+		3AC6E0B4B7EF1A39C82EECFE95B470CA /* SIContactPhone.h in Headers */ = {isa = PBXBuildFile; fileRef = D72560DD717A0B24469E808FD14BD5F7 /* SIContactPhone.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3DED6955B43D4BEE8AC95782B33CFDCA /* NSString+SIContanctExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = CF71F935135DE3697C39D85E5BA0C2B8 /* NSString+SIContanctExtension.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4BE0538FA07895B695F462F0C42A1F63 /* SIContactManager-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D8AFC153F8A15598F446996CCCEB34E5 /* SIContactManager-dummy.m */; };
+		4DD8E61B39507C7C8730DFDF008C5BA2 /* SIContactAddress.h in Headers */ = {isa = PBXBuildFile; fileRef = 82C132D78C93341989D9C776D167C1B8 /* SIContactAddress.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		51A1D820E4DC640A100A14CD83938539 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EEF46859EB6FFD5657666E4B75689A11 /* Foundation.framework */; };
+		5B3F14309A21817C14BAC63CA38C9152 /* SISectionContact.h in Headers */ = {isa = PBXBuildFile; fileRef = 489C3E37EEB0821167C830039C9BF4E2 /* SISectionContact.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		95C8708BE863019F873E9A1F7E8A7912 /* SIContactSocialProfile.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B4B85E6DDB1F16BFEB92749ED91B92A /* SIContactSocialProfile.m */; };
+		9707093C008B2010216CAC315F1C0389 /* SIContactManager-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 71E3836763FFBDA028B3FBEFCB59E5FD /* SIContactManager-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9B1F85B5B944985BC696DA97154DC92B /* SIContactRelation.h in Headers */ = {isa = PBXBuildFile; fileRef = A496DB11937B6E36B0729EF0FE300E6D /* SIContactRelation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A0D4C4A4B7451429D40A56BDEA9B9621 /* SISectionContact.m in Sources */ = {isa = PBXBuildFile; fileRef = 70547D13A10970A76913C10919087C3A /* SISectionContact.m */; };
+		A175938A2FF34F9B6CB76F60F67114D6 /* SIContachManager.h in Headers */ = {isa = PBXBuildFile; fileRef = A78854AA43D7C1EB147C18CF1A5629E6 /* SIContachManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A87233301D105DA2B1FDFAAA4FB81870 /* SIContactUrlAddress.h in Headers */ = {isa = PBXBuildFile; fileRef = 4C39957EE5298407EA5C8FCCF5443542 /* SIContactUrlAddress.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B20BC4BD11F3B84F80221A18737266CE /* SIContact.m in Sources */ = {isa = PBXBuildFile; fileRef = EAE48BEDCFBC8543BF7693B7DCDC2C21 /* SIContact.m */; };
+		B7375806348ABFDDBB6D9AE2B57FD59E /* SIContactEmail.m in Sources */ = {isa = PBXBuildFile; fileRef = A45A0A7459DDA5637C0BE8B36788EA04 /* SIContactEmail.m */; };
+		BE0CC740C102B54AFB749B7B95DD1562 /* NSString+SIContanctExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 34FD66BF26B8BD9934F7A5159BDE1C8D /* NSString+SIContanctExtension.m */; };
+		C1E43FE75DC596CAF9768B571BF0D61D /* SIContactMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AE149CD6547087ABB035448B4EDCC30 /* SIContactMessage.m */; };
+		C8BAF824292391C8C177E680C656082B /* SIContactBirthday.m in Sources */ = {isa = PBXBuildFile; fileRef = E9B10E5F7136BFB9228A24923AAF8F02 /* SIContactBirthday.m */; };
+		D0E20A3DF6C1DCBBE240E1747894D512 /* SIContachManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 099E038B2583C9D37F12FD51561E477D /* SIContachManager.m */; };
+		EDA1AA5FD9C90254398542746B371E0A /* SIContactPhone.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E55F717A5CF4AF298F5D11E0D94A153 /* SIContactPhone.m */; };
+		F4584714E4DF1D5A642FAFADCB78C792 /* SIContactUrlAddress.m in Sources */ = {isa = PBXBuildFile; fileRef = 4216FF11C07C560E622BEE54BAF5FB97 /* SIContactUrlAddress.m */; };
+		FB1EB281B5B133EA9BFDBA88F3DA7B24 /* SIContactMessage.h in Headers */ = {isa = PBXBuildFile; fileRef = 179937D479A570B47E4140ABA6E258C5 /* SIContactMessage.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		03ADA25B93E207410FFEEED57EFDE527 /* SIContachManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SIContachManager.h; sourceTree = "<group>"; };
-		065406DF84D00C64A1335CA29487DF41 /* SIContactAddress.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = SIContactAddress.m; sourceTree = "<group>"; };
-		08A8256BE973C71E618F4323906AA430 /* SIContactManager.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = SIContactManager.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		0E3CD931C8B0EC7BD992AAD9E6B767A3 /* SIContactPhone.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = SIContactPhone.m; sourceTree = "<group>"; };
-		0F4C5FC3477A198B410339AEAA961DD5 /* SIContactEmail.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SIContactEmail.h; sourceTree = "<group>"; };
-		1F043CA99332F1968C2D914F2EE793A1 /* SIContactBirthday.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = SIContactBirthday.m; sourceTree = "<group>"; };
-		1FBB4D08806FE5522054E7CB11D52F14 /* SIContactEmail.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = SIContactEmail.m; sourceTree = "<group>"; };
-		22679421C7541F195BF769C006CAAFC5 /* SIContactUrlAddress.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SIContactUrlAddress.h; sourceTree = "<group>"; };
-		2401C74DE99FF3120031B5255F69C5BC /* SIContactRelation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = SIContactRelation.m; sourceTree = "<group>"; };
-		27170134BC2048683D29706EA0117870 /* SIContactSocialProfile.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SIContactSocialProfile.h; sourceTree = "<group>"; };
-		365E8B40BD808B8578B2C5A540FD7464 /* SIContactManager-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SIContactManager-Info.plist"; sourceTree = "<group>"; };
-		4EDC4751ED3E6CBBAEB7C0B97458BD85 /* SIContactManager.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SIContactManager.modulemap; sourceTree = "<group>"; };
-		4F7F733623BEB98E609A9079E305E88C /* SIContact.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = SIContact.m; sourceTree = "<group>"; };
-		4FB9E4F68B7AB20F89E4932FE3DA5E1C /* SIContactUrlAddress.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = SIContactUrlAddress.m; sourceTree = "<group>"; };
-		53363C7F05A4E542887708D2F025E9A2 /* SIContactManager.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SIContactManager.debug.xcconfig; sourceTree = "<group>"; };
-		5450EEFE4A90651AE0E5923DA9AEFDFB /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		001AA597419074E9308287DB3CD0E154 /* SIContactEmail.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SIContactEmail.h; sourceTree = "<group>"; };
+		0767FA6514888986B00EB6901897CE4E /* SIContactAddress.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = SIContactAddress.m; sourceTree = "<group>"; };
+		099E038B2583C9D37F12FD51561E477D /* SIContachManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = SIContachManager.m; sourceTree = "<group>"; };
+		179937D479A570B47E4140ABA6E258C5 /* SIContactMessage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SIContactMessage.h; sourceTree = "<group>"; };
+		1E55F717A5CF4AF298F5D11E0D94A153 /* SIContactPhone.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = SIContactPhone.m; sourceTree = "<group>"; };
+		1E8C1A8359213EAA1A91F5E770FC8DDA /* SIContact.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SIContact.h; sourceTree = "<group>"; };
+		2A29B68F420E0547C533467FFAFD51E2 /* SIContactManager.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SIContactManager.debug.xcconfig; sourceTree = "<group>"; };
+		2AE61FC53E296D69E1FBCA17A13F1D45 /* SIContactSocialProfile.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SIContactSocialProfile.h; sourceTree = "<group>"; };
+		34FD66BF26B8BD9934F7A5159BDE1C8D /* NSString+SIContanctExtension.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSString+SIContanctExtension.m"; sourceTree = "<group>"; };
+		3A7EFE7B58EA1E41ABC3878DEF2E9941 /* SIContactManager.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = SIContactManager.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		4216FF11C07C560E622BEE54BAF5FB97 /* SIContactUrlAddress.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = SIContactUrlAddress.m; sourceTree = "<group>"; };
+		489C3E37EEB0821167C830039C9BF4E2 /* SISectionContact.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SISectionContact.h; sourceTree = "<group>"; };
+		4AE149CD6547087ABB035448B4EDCC30 /* SIContactMessage.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = SIContactMessage.m; sourceTree = "<group>"; };
+		4B4B85E6DDB1F16BFEB92749ED91B92A /* SIContactSocialProfile.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = SIContactSocialProfile.m; sourceTree = "<group>"; };
+		4C39957EE5298407EA5C8FCCF5443542 /* SIContactUrlAddress.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SIContactUrlAddress.h; sourceTree = "<group>"; };
 		57266DD97380378D5B21554BA1BB7E0D /* SIContactManager.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SIContactManager.framework; path = SIContactManager.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		5B67D741933DF73A351ED0D2338B49CB /* SIContact.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SIContact.h; sourceTree = "<group>"; };
-		687B995322E90E1B611ABD1904457BC2 /* SIContactManager-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SIContactManager-umbrella.h"; sourceTree = "<group>"; };
-		7BC9B1F4B8AFAE92374083223552630B /* SIContactBirthday.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SIContactBirthday.h; sourceTree = "<group>"; };
-		931036BA2DCA5254803182077379F868 /* SIContactManager-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SIContactManager-prefix.pch"; sourceTree = "<group>"; };
-		A3EDDE414311CD5CFFAE085D1F93CE1A /* SISectionContact.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SISectionContact.h; sourceTree = "<group>"; };
-		A7F831E3F37A2547BBE1FF6DC1DEDA85 /* SIContactAddress.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SIContactAddress.h; sourceTree = "<group>"; };
-		B956502F8B3C78931C6137DDECDD7E50 /* SIContactMessage.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = SIContactMessage.m; sourceTree = "<group>"; };
-		D031D1C0C545555E9F89DF5B37E92426 /* SIContactManager.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SIContactManager.release.xcconfig; sourceTree = "<group>"; };
-		D29469B78D642F0FED9D90B95F8AFB5A /* SIContachManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = SIContachManager.m; sourceTree = "<group>"; };
-		DC91A7511CCBBA326805379B4AE877DF /* SISectionContact.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = SISectionContact.m; sourceTree = "<group>"; };
-		E0C1C68986A683B115A1F16C8664E0C5 /* SIContactPhone.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SIContactPhone.h; sourceTree = "<group>"; };
-		EDC534AB3CF97F561CF2D9893AA15039 /* SIContactRelation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SIContactRelation.h; sourceTree = "<group>"; };
+		70547D13A10970A76913C10919087C3A /* SISectionContact.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = SISectionContact.m; sourceTree = "<group>"; };
+		71E3836763FFBDA028B3FBEFCB59E5FD /* SIContactManager-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SIContactManager-umbrella.h"; sourceTree = "<group>"; };
+		77F5F010C3003F1E9B4493DE2CC4FCB4 /* SIContactManager-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SIContactManager-Info.plist"; sourceTree = "<group>"; };
+		7A22278A6752D4E6E80422087FBD6480 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		82C132D78C93341989D9C776D167C1B8 /* SIContactAddress.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SIContactAddress.h; sourceTree = "<group>"; };
+		A45A0A7459DDA5637C0BE8B36788EA04 /* SIContactEmail.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = SIContactEmail.m; sourceTree = "<group>"; };
+		A496DB11937B6E36B0729EF0FE300E6D /* SIContactRelation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SIContactRelation.h; sourceTree = "<group>"; };
+		A78854AA43D7C1EB147C18CF1A5629E6 /* SIContachManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SIContachManager.h; sourceTree = "<group>"; };
+		A7CCD240011187EC2D6F9A31D81D4B6D /* SIContactManager.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SIContactManager.release.xcconfig; sourceTree = "<group>"; };
+		CF71F935135DE3697C39D85E5BA0C2B8 /* NSString+SIContanctExtension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSString+SIContanctExtension.h"; sourceTree = "<group>"; };
+		D1B088E27703884BFABE84C0CF25A055 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		D72560DD717A0B24469E808FD14BD5F7 /* SIContactPhone.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SIContactPhone.h; sourceTree = "<group>"; };
+		D815B3788FAB63F216C4EE8EE32593E8 /* SIContactManager-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SIContactManager-prefix.pch"; sourceTree = "<group>"; };
+		D8AFC153F8A15598F446996CCCEB34E5 /* SIContactManager-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SIContactManager-dummy.m"; sourceTree = "<group>"; };
+		E2835AF95BC99F725D46AE927C29F09C /* SIContactBirthday.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SIContactBirthday.h; sourceTree = "<group>"; };
+		E9B10E5F7136BFB9228A24923AAF8F02 /* SIContactBirthday.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = SIContactBirthday.m; sourceTree = "<group>"; };
+		EAE48BEDCFBC8543BF7693B7DCDC2C21 /* SIContact.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = SIContact.m; sourceTree = "<group>"; };
+		EBD1979A2233B28567CB7FD346F2C0FE /* SIContactManager.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SIContactManager.modulemap; sourceTree = "<group>"; };
 		EEF46859EB6FFD5657666E4B75689A11 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		EF0D73EEA2E9DE4B288595B8661ADADD /* SIContactManager-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SIContactManager-dummy.m"; sourceTree = "<group>"; };
-		EF7103094E151749CFC429A658772E7A /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		FBEA1AA4354A3120A9F428869B6E4516 /* SIContactMessage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SIContactMessage.h; sourceTree = "<group>"; };
-		FF1CD7B3C57CC04943AA709597A67B2C /* SIContactSocialProfile.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = SIContactSocialProfile.m; sourceTree = "<group>"; };
+		FAEDB4641BD8027BDFF78C00CE7A732A /* SIContactRelation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = SIContactRelation.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		B998190F5BA7505417B72C821C706079 /* Frameworks */ = {
+		FEC40D39E0DCDDC4047B89DAF9B3152C /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2907756C40D85F6EFD5156F2DB50A419 /* Foundation.framework in Frameworks */,
+				51A1D820E4DC640A100A14CD83938539 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -91,47 +95,27 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		0EB5CBB2E576BA9400BD53F2D471BDAB /* Support Files */ = {
+		0600A1979D927B7726860313B467D559 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				4EDC4751ED3E6CBBAEB7C0B97458BD85 /* SIContactManager.modulemap */,
-				EF0D73EEA2E9DE4B288595B8661ADADD /* SIContactManager-dummy.m */,
-				365E8B40BD808B8578B2C5A540FD7464 /* SIContactManager-Info.plist */,
-				931036BA2DCA5254803182077379F868 /* SIContactManager-prefix.pch */,
-				687B995322E90E1B611ABD1904457BC2 /* SIContactManager-umbrella.h */,
-				53363C7F05A4E542887708D2F025E9A2 /* SIContactManager.debug.xcconfig */,
-				D031D1C0C545555E9F89DF5B37E92426 /* SIContactManager.release.xcconfig */,
+				7A22278A6752D4E6E80422087FBD6480 /* LICENSE */,
+				D1B088E27703884BFABE84C0CF25A055 /* README.md */,
+				3A7EFE7B58EA1E41ABC3878DEF2E9941 /* SIContactManager.podspec */,
 			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/SIContactManager";
+			name = Pod;
 			sourceTree = "<group>";
 		};
-		22792C3446A05F0B439B1FB19ECD20A2 /* Model */ = {
+		1C7E4E16AADFEB79CF6BB142DC040AC2 /* SIContactManager */ = {
 			isa = PBXGroup;
 			children = (
-				5B67D741933DF73A351ED0D2338B49CB /* SIContact.h */,
-				4F7F733623BEB98E609A9079E305E88C /* SIContact.m */,
-				A7F831E3F37A2547BBE1FF6DC1DEDA85 /* SIContactAddress.h */,
-				065406DF84D00C64A1335CA29487DF41 /* SIContactAddress.m */,
-				7BC9B1F4B8AFAE92374083223552630B /* SIContactBirthday.h */,
-				1F043CA99332F1968C2D914F2EE793A1 /* SIContactBirthday.m */,
-				0F4C5FC3477A198B410339AEAA961DD5 /* SIContactEmail.h */,
-				1FBB4D08806FE5522054E7CB11D52F14 /* SIContactEmail.m */,
-				FBEA1AA4354A3120A9F428869B6E4516 /* SIContactMessage.h */,
-				B956502F8B3C78931C6137DDECDD7E50 /* SIContactMessage.m */,
-				E0C1C68986A683B115A1F16C8664E0C5 /* SIContactPhone.h */,
-				0E3CD931C8B0EC7BD992AAD9E6B767A3 /* SIContactPhone.m */,
-				EDC534AB3CF97F561CF2D9893AA15039 /* SIContactRelation.h */,
-				2401C74DE99FF3120031B5255F69C5BC /* SIContactRelation.m */,
-				27170134BC2048683D29706EA0117870 /* SIContactSocialProfile.h */,
-				FF1CD7B3C57CC04943AA709597A67B2C /* SIContactSocialProfile.m */,
-				22679421C7541F195BF769C006CAAFC5 /* SIContactUrlAddress.h */,
-				4FB9E4F68B7AB20F89E4932FE3DA5E1C /* SIContactUrlAddress.m */,
-				A3EDDE414311CD5CFFAE085D1F93CE1A /* SISectionContact.h */,
-				DC91A7511CCBBA326805379B4AE877DF /* SISectionContact.m */,
+				718C549A3AC83032BD54919D121BEA15 /* Categories */,
+				6A98167E0D25F6E53A585B2EF875178C /* Manager */,
+				97873B8510BDB1E84AEA77989E06FEA0 /* Model */,
+				0600A1979D927B7726860313B467D559 /* Pod */,
+				88258B4662D86E2BC65937A2845D83D6 /* Support Files */,
 			);
-			name = Model;
-			path = SIContactManager/Classes/Model;
+			name = SIContactManager;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 		63348AA95220AC9D81B281AB2D6FFABA /* iOS */ = {
@@ -142,35 +126,76 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		B164ABA38AAB3C6A112C8FC8E78CEACF = {
+		6A98167E0D25F6E53A585B2EF875178C /* Manager */ = {
 			isa = PBXGroup;
 			children = (
-				CE191FD6195DBE3A1BF0D61355E4E3D0 /* Frameworks */,
-				0124C4AC5D257F8846E3707761AD0D7F /* Products */,
-				C88DCF2F6EFA57C4E3AC02FE0068993F /* SIContactManager */,
-			);
-			sourceTree = "<group>";
-		};
-		B85865506802444429B2E011400CECA6 /* Manager */ = {
-			isa = PBXGroup;
-			children = (
-				03ADA25B93E207410FFEEED57EFDE527 /* SIContachManager.h */,
-				D29469B78D642F0FED9D90B95F8AFB5A /* SIContachManager.m */,
+				A78854AA43D7C1EB147C18CF1A5629E6 /* SIContachManager.h */,
+				099E038B2583C9D37F12FD51561E477D /* SIContachManager.m */,
 			);
 			name = Manager;
 			path = SIContactManager/Classes/Manager;
 			sourceTree = "<group>";
 		};
-		C88DCF2F6EFA57C4E3AC02FE0068993F /* SIContactManager */ = {
+		718C549A3AC83032BD54919D121BEA15 /* Categories */ = {
 			isa = PBXGroup;
 			children = (
-				B85865506802444429B2E011400CECA6 /* Manager */,
-				22792C3446A05F0B439B1FB19ECD20A2 /* Model */,
-				F730B466E9B4C62127C61C63F2BF8638 /* Pod */,
-				0EB5CBB2E576BA9400BD53F2D471BDAB /* Support Files */,
+				CF71F935135DE3697C39D85E5BA0C2B8 /* NSString+SIContanctExtension.h */,
+				34FD66BF26B8BD9934F7A5159BDE1C8D /* NSString+SIContanctExtension.m */,
 			);
-			name = SIContactManager;
-			path = ../..;
+			name = Categories;
+			path = SIContactManager/Classes/Categories;
+			sourceTree = "<group>";
+		};
+		88258B4662D86E2BC65937A2845D83D6 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				EBD1979A2233B28567CB7FD346F2C0FE /* SIContactManager.modulemap */,
+				D8AFC153F8A15598F446996CCCEB34E5 /* SIContactManager-dummy.m */,
+				77F5F010C3003F1E9B4493DE2CC4FCB4 /* SIContactManager-Info.plist */,
+				D815B3788FAB63F216C4EE8EE32593E8 /* SIContactManager-prefix.pch */,
+				71E3836763FFBDA028B3FBEFCB59E5FD /* SIContactManager-umbrella.h */,
+				2A29B68F420E0547C533467FFAFD51E2 /* SIContactManager.debug.xcconfig */,
+				A7CCD240011187EC2D6F9A31D81D4B6D /* SIContactManager.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/SIContactManager";
+			sourceTree = "<group>";
+		};
+		97873B8510BDB1E84AEA77989E06FEA0 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				1E8C1A8359213EAA1A91F5E770FC8DDA /* SIContact.h */,
+				EAE48BEDCFBC8543BF7693B7DCDC2C21 /* SIContact.m */,
+				82C132D78C93341989D9C776D167C1B8 /* SIContactAddress.h */,
+				0767FA6514888986B00EB6901897CE4E /* SIContactAddress.m */,
+				E2835AF95BC99F725D46AE927C29F09C /* SIContactBirthday.h */,
+				E9B10E5F7136BFB9228A24923AAF8F02 /* SIContactBirthday.m */,
+				001AA597419074E9308287DB3CD0E154 /* SIContactEmail.h */,
+				A45A0A7459DDA5637C0BE8B36788EA04 /* SIContactEmail.m */,
+				179937D479A570B47E4140ABA6E258C5 /* SIContactMessage.h */,
+				4AE149CD6547087ABB035448B4EDCC30 /* SIContactMessage.m */,
+				D72560DD717A0B24469E808FD14BD5F7 /* SIContactPhone.h */,
+				1E55F717A5CF4AF298F5D11E0D94A153 /* SIContactPhone.m */,
+				A496DB11937B6E36B0729EF0FE300E6D /* SIContactRelation.h */,
+				FAEDB4641BD8027BDFF78C00CE7A732A /* SIContactRelation.m */,
+				2AE61FC53E296D69E1FBCA17A13F1D45 /* SIContactSocialProfile.h */,
+				4B4B85E6DDB1F16BFEB92749ED91B92A /* SIContactSocialProfile.m */,
+				4C39957EE5298407EA5C8FCCF5443542 /* SIContactUrlAddress.h */,
+				4216FF11C07C560E622BEE54BAF5FB97 /* SIContactUrlAddress.m */,
+				489C3E37EEB0821167C830039C9BF4E2 /* SISectionContact.h */,
+				70547D13A10970A76913C10919087C3A /* SISectionContact.m */,
+			);
+			name = Model;
+			path = SIContactManager/Classes/Model;
+			sourceTree = "<group>";
+		};
+		B164ABA38AAB3C6A112C8FC8E78CEACF = {
+			isa = PBXGroup;
+			children = (
+				CE191FD6195DBE3A1BF0D61355E4E3D0 /* Frameworks */,
+				0124C4AC5D257F8846E3707761AD0D7F /* Products */,
+				1C7E4E16AADFEB79CF6BB142DC040AC2 /* SIContactManager */,
+			);
 			sourceTree = "<group>";
 		};
 		CE191FD6195DBE3A1BF0D61355E4E3D0 /* Frameworks */ = {
@@ -181,35 +206,26 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		F730B466E9B4C62127C61C63F2BF8638 /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				5450EEFE4A90651AE0E5923DA9AEFDFB /* LICENSE */,
-				EF7103094E151749CFC429A658772E7A /* README.md */,
-				08A8256BE973C71E618F4323906AA430 /* SIContactManager.podspec */,
-			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		D31E71668C8C9BC8C749083ECDE66A6B /* Headers */ = {
+		B97163DB61C64C693E89B20B0D55B45C /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				707528F830C0DD52E9425F3A52AB14D8 /* SIContachManager.h in Headers */,
-				DC188A0F9018B878E4513E8FB4ED2507 /* SIContact.h in Headers */,
-				17D5B5059928128C779252E7D8AAE4BD /* SIContactAddress.h in Headers */,
-				2F56078BAE580C3086CD0B9EE07016B9 /* SIContactBirthday.h in Headers */,
-				C587258318F706F5D2112662356CB9B4 /* SIContactEmail.h in Headers */,
-				370502431D3B0E05DC705E6558CCF359 /* SIContactManager-umbrella.h in Headers */,
-				EC004F88301CBA249D818224DDDEB171 /* SIContactMessage.h in Headers */,
-				9CCDF87233A4A6A6EE5D196519AF6039 /* SIContactPhone.h in Headers */,
-				CED110BA3816538C9839F0CF2793824D /* SIContactRelation.h in Headers */,
-				A5E10AB97247087E0AD18EC5D9E53AD1 /* SIContactSocialProfile.h in Headers */,
-				BF2D1AF49CCA23E424BFFC71EE136C39 /* SIContactUrlAddress.h in Headers */,
-				9437A60D024A8698F1CC2A1C60E60E10 /* SISectionContact.h in Headers */,
+				3DED6955B43D4BEE8AC95782B33CFDCA /* NSString+SIContanctExtension.h in Headers */,
+				A175938A2FF34F9B6CB76F60F67114D6 /* SIContachManager.h in Headers */,
+				1D16A2C888615ECDBEFCE86BDE5E129A /* SIContact.h in Headers */,
+				4DD8E61B39507C7C8730DFDF008C5BA2 /* SIContactAddress.h in Headers */,
+				22A5F5E001C124AA70044FADC483BB06 /* SIContactBirthday.h in Headers */,
+				27D2E8AA567648A7AC5E654B7E228EDE /* SIContactEmail.h in Headers */,
+				9707093C008B2010216CAC315F1C0389 /* SIContactManager-umbrella.h in Headers */,
+				FB1EB281B5B133EA9BFDBA88F3DA7B24 /* SIContactMessage.h in Headers */,
+				3AC6E0B4B7EF1A39C82EECFE95B470CA /* SIContactPhone.h in Headers */,
+				9B1F85B5B944985BC696DA97154DC92B /* SIContactRelation.h in Headers */,
+				08EDD77D683F0E08E89E80C6C992B688 /* SIContactSocialProfile.h in Headers */,
+				A87233301D105DA2B1FDFAAA4FB81870 /* SIContactUrlAddress.h in Headers */,
+				5B3F14309A21817C14BAC63CA38C9152 /* SISectionContact.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -218,12 +234,12 @@
 /* Begin PBXNativeTarget section */
 		213C45663BB426E33E87EDA8401F5A42 /* SIContactManager */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B401B74BBFB0DD358FC0A41727384F57 /* Build configuration list for PBXNativeTarget "SIContactManager" */;
+			buildConfigurationList = 1282AF2C3E05B01AE382715AF4A8F77C /* Build configuration list for PBXNativeTarget "SIContactManager" */;
 			buildPhases = (
-				D31E71668C8C9BC8C749083ECDE66A6B /* Headers */,
-				4CC25A3A8E5D6E8D927F311652387F3E /* Sources */,
-				B998190F5BA7505417B72C821C706079 /* Frameworks */,
-				3C9B6908783E9898A338A88638AE7209 /* Resources */,
+				B97163DB61C64C693E89B20B0D55B45C /* Headers */,
+				053C433B4CF516E8BADF5FAE62064ECE /* Sources */,
+				FEC40D39E0DCDDC4047B89DAF9B3152C /* Frameworks */,
+				A8B16A368AF9982D8E01B9486616411C /* Resources */,
 			);
 			buildRules = (
 			);
@@ -262,7 +278,7 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		3C9B6908783E9898A338A88638AE7209 /* Resources */ = {
+		A8B16A368AF9982D8E01B9486616411C /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -272,31 +288,32 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		4CC25A3A8E5D6E8D927F311652387F3E /* Sources */ = {
+		053C433B4CF516E8BADF5FAE62064ECE /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				68BE379BB7F4447C6643FB342CC76260 /* SIContachManager.m in Sources */,
-				3E4667953D9F8F363A8650BFA07ABBB6 /* SIContact.m in Sources */,
-				EC4D1316537C90C03878AD4F588CC392 /* SIContactAddress.m in Sources */,
-				774D77B7CD96F81F8A772A50A21F1130 /* SIContactBirthday.m in Sources */,
-				1C3F8E072A5DC13F97C4EDF1493012D3 /* SIContactEmail.m in Sources */,
-				465D799102F23C61A18AC0C8E145DD23 /* SIContactManager-dummy.m in Sources */,
-				378DFD3C9DF7B847794E1FA3122E980F /* SIContactMessage.m in Sources */,
-				A8F23CC23E4C7EBF6D693FF7194A1610 /* SIContactPhone.m in Sources */,
-				99E6C787E4EFEB40448E0F11CBE944D6 /* SIContactRelation.m in Sources */,
-				9B2F79CACFAB8169B323257B47F6DF61 /* SIContactSocialProfile.m in Sources */,
-				84AE1796083975F52899723E160D7892 /* SIContactUrlAddress.m in Sources */,
-				E4519195BD6F3C87BB01B9497A3A2D08 /* SISectionContact.m in Sources */,
+				BE0CC740C102B54AFB749B7B95DD1562 /* NSString+SIContanctExtension.m in Sources */,
+				D0E20A3DF6C1DCBBE240E1747894D512 /* SIContachManager.m in Sources */,
+				B20BC4BD11F3B84F80221A18737266CE /* SIContact.m in Sources */,
+				36E8891175975B012D44F387B3CBAC4B /* SIContactAddress.m in Sources */,
+				C8BAF824292391C8C177E680C656082B /* SIContactBirthday.m in Sources */,
+				B7375806348ABFDDBB6D9AE2B57FD59E /* SIContactEmail.m in Sources */,
+				4BE0538FA07895B695F462F0C42A1F63 /* SIContactManager-dummy.m in Sources */,
+				C1E43FE75DC596CAF9768B571BF0D61D /* SIContactMessage.m in Sources */,
+				EDA1AA5FD9C90254398542746B371E0A /* SIContactPhone.m in Sources */,
+				2EB27C7DD008D244651B2AD6F28C0A72 /* SIContactRelation.m in Sources */,
+				95C8708BE863019F873E9A1F7E8A7912 /* SIContactSocialProfile.m in Sources */,
+				F4584714E4DF1D5A642FAFADCB78C792 /* SIContactUrlAddress.m in Sources */,
+				A0D4C4A4B7451429D40A56BDEA9B9621 /* SISectionContact.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		4CBF3CA88EFF81843AAB1ACD4CDDB4C1 /* Debug */ = {
+		656C379C54689FC45DAE951DED719278 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 53363C7F05A4E542887708D2F025E9A2 /* SIContactManager.debug.xcconfig */;
+			baseConfigurationReference = 2A29B68F420E0547C533467FFAFD51E2 /* SIContactManager.debug.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -387,6 +404,37 @@
 			};
 			name = Release;
 		};
+		BF53462F355F15AF41D8B27D89023C7F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A7CCD240011187EC2D6F9A31D81D4B6D /* SIContactManager.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SIContactManager/SIContactManager-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SIContactManager/SIContactManager-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SIContactManager/SIContactManager.modulemap";
+				PRODUCT_MODULE_NAME = SIContactManager;
+				PRODUCT_NAME = SIContactManager;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		EA773D9C137964DFC766D8A9498D0370 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -454,45 +502,14 @@
 			};
 			name = Debug;
 		};
-		F170C64524E47AF516D3FB88F9468F9E /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = D031D1C0C545555E9F89DF5B37E92426 /* SIContactManager.release.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/SIContactManager/SIContactManager-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/SIContactManager/SIContactManager-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/SIContactManager/SIContactManager.modulemap";
-				PRODUCT_MODULE_NAME = SIContactManager;
-				PRODUCT_NAME = SIContactManager;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		B401B74BBFB0DD358FC0A41727384F57 /* Build configuration list for PBXNativeTarget "SIContactManager" */ = {
+		1282AF2C3E05B01AE382715AF4A8F77C /* Build configuration list for PBXNativeTarget "SIContactManager" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				4CBF3CA88EFF81843AAB1ACD4CDDB4C1 /* Debug */,
-				F170C64524E47AF516D3FB88F9468F9E /* Release */,
+				656C379C54689FC45DAE951DED719278 /* Debug */,
+				BF53462F355F15AF41D8B27D89023C7F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

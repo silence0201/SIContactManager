@@ -16,7 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		36FD1F9A9134ECC9C85FBAC6E5688D4F /* PBXContainerItemProxy */ = {
+		7F81E282274C05DCCA351E7830A13F4A /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D99651DABD39A021C5AFE584F2E2F81B /* SIContactManager.xcodeproj */;
 			proxyType = 1;
@@ -216,7 +216,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				848B40B444EC1DCCC5AAF77433871B28 /* PBXTargetDependency */,
+				167462D14DC90F00A85B27BCEBD65EA6 /* PBXTargetDependency */,
 			);
 			name = "Pods-SIContactManager_Example";
 			productName = "Pods-SIContactManager_Example";
@@ -293,10 +293,10 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		848B40B444EC1DCCC5AAF77433871B28 /* PBXTargetDependency */ = {
+		167462D14DC90F00A85B27BCEBD65EA6 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = SIContactManager;
-			targetProxy = 36FD1F9A9134ECC9C85FBAC6E5688D4F /* PBXContainerItemProxy */;
+			targetProxy = 7F81E282274C05DCCA351E7830A13F4A /* PBXContainerItemProxy */;
 		};
 		FE994DD47B4E41818926523ECD7F0B21 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
